@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games — Samuel Tan</title>
+    <meta name="description" content="Games developed by Samuel Tan.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">SAMUEL<span>.TAN</span></a>
+            <nav class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="games.html" class="active">Games</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="games.html">Games</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">Side Quests</p>
+                <h1>Games</h1>
+                <p class="page-sub">Personal game projects and game jam entries. Click any thumbnail to play the trailer inline.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="project-grid">
+                    <article id="zenesis" class="project-card project-card-detail">
+                        <div class="project-thumb video-thumb" data-video-id="gKmy3xf2ELI" style="background-image: url('https://img.youtube.com/vi/gKmy3xf2ELI/hqdefault.jpg')">
+                            <span class="tag">Game</span>
+                            <button class="play-button" aria-label="Play Zenesis trailer"></button>
+                        </div>
+                        <h3>Zenesis</h3>
+                        <p>Game trailer. Add a description here — genre, what makes it stand out, and the team or solo credit.</p>
+                        <ul class="meta-list"><li>Unity</li><li>Trailer</li></ul>
+                    </article>
+
+                    <article id="boxtrucks" class="project-card project-card-detail">
+                        <div class="project-thumb video-thumb" data-video-id="-wrfO_AimGk" style="background-image: url('https://img.youtube.com/vi/-wrfO_AimGk/hqdefault.jpg')">
+                            <span class="tag">Game</span>
+                            <button class="play-button" aria-label="Play BoxTrucks gameplay"></button>
+                        </div>
+                        <h3>BoxTrucks</h3>
+                        <p>Gameplay footage. Add a description — what the game is about, controls, and what was interesting to build.</p>
+                        <ul class="meta-list"><li>Unity</li><li>Gameplay</li></ul>
+                    </article>
+
+                    <article id="little-white-box" class="project-card project-card-detail">
+                        <div class="project-thumb video-thumb" data-video-id="9eeDVmjl8H8" style="background-image: url('https://img.youtube.com/vi/9eeDVmjl8H8/hqdefault.jpg')">
+                            <span class="tag">Game</span>
+                            <button class="play-button" aria-label="Play The Little White Box demo"></button>
+                        </div>
+                        <h3>The Little White Box</h3>
+                        <p>Demo build. Add a description — concept, mechanics, and any links to a playable build or store page.</p>
+                        <ul class="meta-list"><li>Unity</li><li>Demo</li></ul>
+                    </article>
+
+                    <article id="project-home" class="project-card project-card-detail">
+                        <div class="project-thumb video-thumb" data-video-id="KWs1H7j5ezE" style="background-image: url('https://img.youtube.com/vi/KWs1H7j5ezE/hqdefault.jpg')">
+                            <span class="tag">Jam</span>
+                            <button class="play-button" aria-label="Play Project Home gameplay"></button>
+                        </div>
+                        <h3>Project Home</h3>
+                        <p>Global Game Jam 2019 entry. Add a description — the jam theme, what your team built, and any awards or recognition.</p>
+                        <ul class="meta-list"><li>Unity</li><li>Game Jam</li><li>GGJ 2019</li></ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Samuel Tan. Built from scratch.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

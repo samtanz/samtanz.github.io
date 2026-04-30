@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Tan — VR/AR Developer</title>
+    <meta name="description" content="Portfolio of Samuel Tan, VR/AR developer specializing in Unity, immersive experiences, and interactive prototypes.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">SAMUEL<span>.TAN</span></a>
+            <nav class="nav-desktop">
+                <a href="index.html" class="active">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="games.html">Games</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="games.html">Games</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <p class="hero-eyebrow">VR / AR Developer</p>
+                <h1 class="hero-title">Building <span class="accent">immersive</span><br>realities in Unity.</h1>
+                <p class="hero-sub">Prototypes, training simulations, and interactive experiences that put users inside the experience.</p>
+                <div class="hero-cta">
+                    <a href="projects.html" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-orb" aria-hidden="true"></div>
+        </section>
+
+        <section class="section" id="featured">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Featured Work</h2>
+                    <a href="projects.html" class="link-arrow">All projects →</a>
+                </div>
+                <div class="project-grid">
+                    <a href="projects.html#vr-virtual-shopping" class="project-card">
+                        <div class="project-thumb video-thumb" style="background-image: url('https://img.youtube.com/vi/bQnIqQ54lKI/hqdefault.jpg')">
+                            <span class="tag">VR</span>
+                            <span class="play-button play-button-static" aria-hidden="true"></span>
+                        </div>
+                        <h3>VR Virtual Shopping</h3>
+                        <p>Unity prototype exploring virtual retail experiences for a client engagement.</p>
+                    </a>
+                    <a href="projects.html#vr-construction-safety" class="project-card">
+                        <div class="project-thumb video-thumb" style="background-image: url('https://img.youtube.com/vi/5bhj2pqpF-M/hqdefault.jpg')">
+                            <span class="tag">VR</span>
+                            <span class="play-button play-button-static" aria-hidden="true"></span>
+                        </div>
+                        <h3>VR Construction Safety</h3>
+                        <p>Immersive safety training built for a construction company.</p>
+                    </a>
+                    <a href="projects.html#ar-visualizer" class="project-card">
+                        <div class="project-thumb video-thumb" style="background-image: url('https://img.youtube.com/vi/ihZmhNBa7-E/hqdefault.jpg')">
+                            <span class="tag">AR</span>
+                            <span class="play-button play-button-static" aria-hidden="true"></span>
+                        </div>
+                        <h3>AR Visualizer App</h3>
+                        <p>Reads Excel data and visualizes it spatially in augmented reality.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="about">
+            <div class="container about-grid">
+                <div class="about-photo" aria-hidden="true"></div>
+                <div class="about-copy">
+                    <p class="eyebrow">About</p>
+                    <h2>Hi, I'm Samuel.</h2>
+                    <p>I'm a developer focused on virtual and augmented reality, with deep experience in Unity. I build prototypes, training tools, and interactive demos that explore what's possible when you put a headset on.</p>
+                    <p>My work spans hand and gesture interaction, voice input, AR data visualization, and full VR training simulations for industry partners.</p>
+                    <ul class="skill-list">
+                        <li>Unity</li>
+                        <li>C#</li>
+                        <li>VR / XR</li>
+                        <li>AR</li>
+                        <li>LeapMotion</li>
+                        <li>3D Interaction Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container contact-block">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's build something.</h2>
+                <p class="contact-sub">Open to collaborations, freelance, and full-time roles in XR.</p>
+                <a href="mailto:samueltanz91@gmail.com" class="contact-email">samueltanz91@gmail.com</a>
+                <div class="social-row">
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                    <a href="#" aria-label="YouTube">YouTube</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Samuel Tan. Built from scratch.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
