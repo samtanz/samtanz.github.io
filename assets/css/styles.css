@@ -428,18 +428,14 @@ img { max-width: 100%; display: block; }
     border-radius: 50%;
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
     box-shadow: 0 0 60px var(--accent-glow);
-    position: relative;
     padding: 4px;
 }
-.about-photo::after {
-    content: '';
-    position: absolute;
-    inset: 4px;
+.about-photo img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    background-image: url('../images/photo.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: var(--surface);
+    object-fit: cover;
+    display: block;
 }
 .about-copy h2 {
     font-family: var(--font-display);
