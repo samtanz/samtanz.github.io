@@ -429,20 +429,17 @@ img { max-width: 100%; display: block; }
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
     box-shadow: 0 0 60px var(--accent-glow);
     position: relative;
+    padding: 4px;
 }
 .about-photo::after {
-    content: 'Photo';
+    content: '';
     position: absolute;
-    inset: 8px;
+    inset: 4px;
     border-radius: 50%;
-    background: var(--surface);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-dim);
-    font-size: 0.85rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    background-image: url('../images/photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: var(--surface);
 }
 .about-copy h2 {
     font-family: var(--font-display);
